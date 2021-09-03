@@ -334,3 +334,150 @@ footer .social a{
     font-size: 1rem;
   }
 }
+
+@media(min-width: 1000px){
+  header{
+    background: url('/images/bg-header-desktop.png') no-repeat center center/cover;
+    width: 100%;
+  }
+
+  header img{
+    width: 10%;
+  }
+
+  .header-paragraph,
+  .art-1-paragraph,
+  .art-2-paragraph,
+  .art-5-paragraph{
+    width: 35%;
+  }
+
+  .aside-1-paragraph,
+  .aside-2-paragraph,
+  .aside-3-paragraph{
+    width: 80%;
+  }
+
+  .aside-1,
+  .aside-2,
+  .aside-3{
+    width: 70%;
+  }
+
+  .buttons{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn{
+    display: inline-block;
+    width: 35%;
+  }
+
+  .art-1-top-half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-1-bottom-half{
+    display: flex;
+  }
+
+  .aside-title-1,
+  .aside-title-2,
+  .aside-title-3,
+  .aside-paragraph-1,
+  .aside-paragraph-2,
+  .aside-paragraph-3{
+    text-align: left;
+  }
+
+  .art-1-bottom-half .art-1-aside{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    width: 40%;
+  }
+
+  .art-1-bottom-half img{
+    width: 50%;
+    height: 50%;
+    margin-right: 5rem;
+    margin-left: -13rem;
+    margin-top: 5rem;
+  }
+
+  .art-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-2 img{
+    width: 60%;
+  }
+
+  .art-3-boottom-half{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .art-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .art-4 img{
+    width: 12%;
+  }
+
+  .art-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .art-5 .buttons{
+    width: 70%;
+  }
+
+  .art-5 .buttons .btn{
+    width: 36%
+  }
+
+  footer{
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  footer img{
+    margin: 0;
+  }
+
+  footer .options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  footer .options a{
+    margin: 0; 
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  footer .social{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  footer .social a{
+    margin: 0;
+  }
+}
